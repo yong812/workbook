@@ -15,8 +15,18 @@ grep -n 搜索行，且显示行号
 # 创建文件，查看文件的内容
 cat
 cat options files
-cat 
-
+cat>new_file.txt            新建txt文件 （ctrl D 保存退出）
+cat new_file.txt            显示单个文件内容
+cat n1.txt n2.txt n3.txt    显示多个文件内容
+cat a.txt>b.txt             将a文件内容拷贝到b文件（也可拷贝多个文件内容）
+cat a.txt>>b.txt            将a文件内容添加到b文件末尾
+tac a.txt                   按相反顺序显示文件内容
+cat -n a.txt                在输出内容中使用行号
 # 
+
+
+
+
+
 
 
